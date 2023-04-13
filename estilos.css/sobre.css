@@ -1,0 +1,26 @@
+.sobre{
+    /* margin-bottom: 200px;
+    background-color: black; */
+    padding: 30px;
+    /* border-radius: 25px;
+    border-bottom: 1px solid white; */
+}
+
+.sobre__titulo__container h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.sobre__descricao{
+    text-align: justify;
+}
+
+@media (max-width:600px) {
+    .sobre__titulo__container h2{
+        font-size: 1.5rem;
+    }
+    
+}

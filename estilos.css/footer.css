@@ -1,0 +1,8 @@
+.rodape__container{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+
+}

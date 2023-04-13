@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-branca);
+}
+
+:root{
+    --cor-bg: #101724;
+    --cor-branca: #ffffff;
+    --cor-cinza-letra: #929EB0;
+    --gradiente: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: var(--cor-bg);
+    width: 80%;
+    margin: auto;
+    overflow-x: hidden;
+}
